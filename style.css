@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.boddy-completo{
+    display: block;
+   
+}
+
+
+.navbar{
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    flex-direction: row  ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+}
+
+.navar-list{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;   
+}
+
+.navbar-list__item{
+    color: white;
+    padding: 9px;
+}
+
+.navbar-list__item:hover{
+    text-decoration: underline gold;
+}
+
+.paginaprincipal{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.apaginaprincipal{
+    width: 100%;
+    display: flex;
+}
+
+.paginaprincipal-imagen{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.segundapagina{
+    display: flex;
+    min-height: 100vh;
+    background-image: url(./media/palmeraspaginados.jpeg);
+    background-position: center;
+    justify-content: space-evenly;
+   
+    
+    /*quiero ahumentar el tamaño de la pagina, y poner el coctel al lado del cuadro*/
+}.cuadroeimagen{
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    padding: 150px;
+}
+
+.segundapagina-cuadronegro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 59, 59);
+    width: 400px;
+    height: 400px;
+}
+
+.segundapagina-cuadronegro_titulo{
+    padding: 20px;
+    text-transform: uppercase;
+    color: #f0f8ff;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.segundapagina-cuadronegro_contenido{
+    padding: 20px;
+    text-justify: auto;
+    text-transform: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagencoctel{
+    width: 100%;
+    display: flex;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    flex-direction: column;
+}
+
+.cuadro{
+    width: 100%;
+}
+
+.tercerapagina{
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+    background-image: url(./media/segundapaginafondo.jpeg);
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    width: 300px;
+    order:1;
+    align-self: stretch;    
+    padding: 20px;
+}
+
+.cuartapagina{
+    text-transform: capitalize;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.cuartapagina-cabecera{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    width: 100%;
+}
+
+.cuartapagina-cabecera__titulo{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cuartapagina-cabecera__ul{
+    padding: 25px;
+    display: flex;
+}
+
+.cuartapagina-cabecera__li{ 
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    justify-content: center;
+    color: black;
+}
+
+.cuartapagina-cabecera__li:hover{
+    text-decoration: underline rgba(228, 217, 10, 0.611);
+}
+
+.cuartapagina-menu{
+    display: flex;
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-position: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuartapagina-menu__contenido{
+    width: 55%;
+    display: flex;
+    min-height: 100vh;
+    background-image: url(./media/menu.webp);
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.cuartapagina-menu__columnaizq{
+    min-height: 100vh;
+    width: 45%;
+    background-color: #ffffff;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+.td{
+    border: 1px;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.table{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuartapagina-menu__columnader{
+    min-height: 100vh;
+    width: 45%;
+    background-color: #ffffff;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cuartapagina-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botoncarta{
+    background-color: orange;
+    color: white;
+    padding: 25px;
+    font-weight: bolder;
+}
+
+caption{
+    font-weight: bolder;
+    Display: flex;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+tr{
+    width: 75%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quintapagina{
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url(./media/fondo5tapagina.jpeg);
+    color: white;
+    text-transform: uppercase;
+        
+}
+
+.cabecerareservas{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    /* flex-direction: row;*/
+    font-weight: lighter;
+}
+
+.reservas{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding: 70px;
+}
+
+.datosreservas{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    padding: 60px;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.reservadireccion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.personashora{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.botonesdereserva{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+
+
+}
+
+.direccion{
+ 
+    padding: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-weight: lighter;
+}
+
+.titulodireccion{
+    color: rgb(100, 100, 0);
+    
+}
+
+.parrafordireccion{
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.sextapagina{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecera-3imagenes{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tresimagenes{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+
+.botonpagina5{
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.paginasiete{
+    width: 100%;
+    display: flex;
+    min-height: 80vh;
+    background-image: url(./media/fotochef.jpeg);
+    color: white;
+    text-transform: uppercase;
+}
+
+.cuerpopaginasiete{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fotomozzabar{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.vencuandoqueras{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    padding: 40px;
+}
+
+.iconos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    gap: 50px;
+    padding: 60px;
+}
+
+
+.ultimapagina{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    background-color: white;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+    padding: 50px;
+}
+
+.elementosultimapagina{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.siguenos{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.faceing{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.botonesultimapagina{
+    background-color: rgb(250, 248, 246);
+    padding: 20px;
+    border: 2px solid black;
+    
+
+}
+
+.caracteristicasa{
+    color: rgb(1, 1, 1);
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
